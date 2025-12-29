@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://lucide.dev/icons/dog.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Primaire -->
+    <title>Lise Gourinchas | L'Atelier au Poil Parfait - Toilettage & Concours</title>
+    <meta name="description" content="Salon de toilettage d'excellence à Agris (16). Spécialiste du toilettage morphologique, épilation (trimming) et préparation aux concours canins. Expertise et douceur pour votre chien." />
+    <meta name="keywords" content="toilettage agris, toiletteur 16, épilation chien, trimming cocker, préparation concours canin, handling, lise gourinchas, charente, toilettage haut de gamme" />
+    <meta name="author" content="Lise Gourinchas" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:url" content="https://www.lise-gourinchas.fr/" />
+    <meta property="og:title" content="Lise Gourinchas | L'Art du Toilettage Morphologique" />
+    <meta property="og:description" content="Expertise technique et passion canine. Découvrez un salon privé dédié à la mise en beauté et à la préparation aux expositions canines." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=1200" />
+    <meta property="business:contact_data:street_address" content="16110 Agris" />
+    <meta property="business:contact_data:locality" content="Agris" />
+    <meta property="business:contact_data:postal_code" content="16110" />
+    <meta property="business:contact_data:country_name" content="France" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.lise-gourinchas.fr/" />
+    <meta property="twitter:title" content="Lise Gourinchas | Toilettage Expert" />
+    <meta property="twitter:description" content="Salon de toilettage d'excellence et préparation concours à Agris." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=1200" />
+
+    <!-- Données Structurées JSON-LD pour Google (Local Business) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "L'Atelier au Poil Parfait - Lise Gourinchas",
+      "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+      "telephone": "07 80 56 73 26",
+      "email": "latelieraupoilparfait@outlook.com",
+      "url": "https://www.lise-gourinchas.fr",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Le Bourg",
+        "addressLocality": "Agris",
+        "postalCode": "16110",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.7761",
+        "longitude": "0.3372"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "priceRange": "$$"
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Tenor Sans"', 'sans-serif'],
+              sans: ['"Manrope"', 'sans-serif'],
+            },
+            colors: {
+              bronze: {
+                50: '#F9F6F1',
+                100: '#F0EADF',
+                200: '#E2D5BF',
+                300: '#D3BF9F',
+                400: '#C5A572',
+                500: '#B89255',
+                600: '#9C7840',
+                900: '#4A3718',
+              },
+              sand: {
+                50: '#FAF9F7',
+                100: '#F3F0EB',
+                200: '#E6E2DB',
+                900: '#1C1917',
+              },
+              charcoal: '#151515',
+            },
+            animation: {
+              'fade-up': 'fadeUp 0.8s ease-out forwards',
+              'fade-in': 'fadeIn 1s ease-out forwards',
+            },
+            keyframes: {
+              fadeUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FAF9F7;
+        color: #151515;
+      }
+      ::selection {
+        background: #C5A572;
+        color: white;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
